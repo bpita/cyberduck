@@ -83,10 +83,13 @@ nav { padding: 0; }
 
 .nav-wapper { background-color: #333333; color: #999999; }
 
-.active { background-color: #000000; }
+.active { background-color: #000000; color: #ff3333; }
 
-.default { color: #666666; background-color: initial; }
-
+/*
+.default {
+	color: $header_fc;
+	background-color: initial;
+}*/
 nav ul li a:hover { background-color: #000000; }
 
 /* END NAVBAR */
@@ -147,9 +150,9 @@ h2.text-ontop { position: absolute; color: #ffffff; z-index: 10; top: 10%; text-
 
 .col-img-1 { width: 100%; height: 227px; background: url("../images/pic-col-1.jpg") no-repeat center; }
 
-.col-img-2 { width: 100%; height: 227px; background-image: url("../images/pic-col-2.jpg"); }
+.col-img-2 { width: 100%; height: 227px; background: url("../images/pic-col-2.jpg") no-repeat center; }
 
-.col-img-3 { width: 100%; height: 227px; background-image: url("../images/pic-col-3.jpg"); }
+.col-img-3 { width: 100%; height: 227px; background: url("../images/pic-col-3.jpg") no-repeat center; }
 
 .action-button { background-color: #999999; background-image: linear-gradient(to bottom right, #999999, #666666); width: 100%; padding-top: 5px; padding-bottom: 5px; }
 

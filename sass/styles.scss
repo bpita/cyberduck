@@ -182,11 +182,13 @@ nav {
 }
 .active {
 	background-color: $header_bg;
+	color: #ff3333;
 }
+/*
 .default {
 	color: $header_fc;
 	background-color: initial;
-}
+}*/
 nav ul li a:hover {
 	background-color: $header_bg;
 }
@@ -338,12 +340,12 @@ h2.text-ontop {
 .col-img-2 {
 	width: 100%;
 	height: 227px;
-	background-image: url('../images/pic-col-2.jpg');
+	background: url('../images/pic-col-2.jpg') no-repeat center;
 }
 .col-img-3 {
 	width: 100%;
 	height: 227px;
-	background-image: url('../images/pic-col-3.jpg');
+	background: url('../images/pic-col-3.jpg') no-repeat center;
 }
 .action-button {
 	background-color: #999999;
